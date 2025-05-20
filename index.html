@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MPHA Myanmar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased">
+  <!-- Header & Navbar -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      
+      <!-- Logo + Text -->
+      <a href="index.html" class="flex items-center space-x-2">
+        <img src="img/logo.png" alt="MPHA Myanmar Logo" class="h-10">
+        <span class="text-2xl font-bold text-[#004AAB]">MPHA Myanmar</span>
+      </a>
+  
+      <!-- Hamburger Button (Mobile) -->
+      <button id="menu-toggle" class="md:hidden text-[#004AAB] focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+  
+      <!-- Navigation Links -->
+      <nav id="menu" class="hidden md:flex space-x-6 text-[#004AAB] font-medium uppercase">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="services.html" class="hover:underline">Services</a>
+        <a href="training.html" class="hover:underline">Training</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  
+    <!-- Mobile Nav -->
+    <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
+      <a href="index.html" class="block py-2 text-[#004AAB]">Home</a>
+      <a href="about.html" class="block py-2 text-[#004AAB]">About Us</a>
+      <a href="services.html" class="block py-2 text-[#004AAB]">Services</a>
+      <a href="training.html" class="block py-2 text-[#004AAB]">Training</a>
+      <a href="contact.html" class="block py-2 text-[#004AAB]">Contact</a>
+    </div>
+  </header>
+  
+  
+  
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center text-white text-center py-24 px-6" style="background-image: url('img/hero.jpg')">
+    <div class="max-w-2xl mx-auto">
+      <h1 class="text-4xl font-bold mb-4">Unlock the Power of Your Mind</h1>
+      <p class="text-xl mb-6">Professional Hypnosis Training & Coaching Plans</p>
+      <a href="services.html" class="bg-[#EAAA16] text-[#004AAB] px-6 py-3 rounded-md font-semibold">Explore Services</a>
+    </div>
+  </section>
+  
+  
+  
+  
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-6 max-w-6xl text-center">
+      <h2 class="text-3xl font-bold mb-12 text-[#004AAB]">Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-[#004AAB] mb-2">Hypnosis Training</h3>
+          <p class="text-gray-700">Learn the foundations of hypnosis in our certified programs.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-[#004AAB] mb-2">1-on-1 Coaching</h3>
+          <p class="text-gray-700">Personalized mindset coaching tailored to your goals.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-[#004AAB] mb-2">Corporate Workshops</h3>
+          <p class="text-gray-700">Custom hypnosis and wellness programs for your team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-6 max-w-5xl text-center">
+      <h2 class="text-3xl font-bold mb-4 text-[#004AAB]">About MPHA Myanmar</h2>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        MPHA Myanmar is dedicated to empowering individuals through professional hypnotist training and coaching.
+        With years of experience and a passion for personal transformation, we’ve helped hundreds awaken their potential,
+        overcome limitations, and lead fulfilling lives through the art and science of hypnosis.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-16 bg-gray-100">
+    <div class="container mx-auto px-6 max-w-6xl text-center">
+      <h2 class="text-3xl font-bold mb-10 text-[#004AAB]">Why Choose MPHA Myanmar?</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center justify-center h-12 w-12 mx-auto bg-[#EAAA16] text-white rounded-full mb-4">
+            ⭐
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Certified Trainers</h3>
+          <p class="text-gray-600">Professionally certified instructors with real-world experience.</p>
+        </div>
+        <div>
+          <div class="flex items-center justify-center h-12 w-12 mx-auto bg-[#EAAA16] text-white rounded-full mb-4">
+            ✅
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Proven Results</h3>
+          <p class="text-gray-600">Hundreds of successful clients and practitioners trained.</p>
+        </div>
+        <div>
+          <div class="flex items-center justify-center h-12 w-12 mx-auto bg-[#EAAA16] text-white rounded-full mb-4">
+            🕒
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Flexible Schedules</h3>
+          <p class="text-gray-600">Online, in-person, and hybrid training available.</p>
+        </div>
+        <div>
+          <div class="flex items-center justify-center h-12 w-12 mx-auto bg-[#EAAA16] text-white rounded-full mb-4">
+            🤝
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Supportive Community</h3>
+          <p class="text-gray-600">Be part of an inspiring and caring group of learners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6 max-w-5xl text-center">
+      <h2 class="text-3xl font-bold mb-12 text-[#004AAB]">What Our Clients Say</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+          <p class="text-gray-700 italic">"Joining MPHA Myanmar’s hypnosis training changed my life. I gained confidence and started helping others."</p>
+          <h4 class="mt-4 font-semibold text-[#004AAB]">– Aye Chan, Certified Practitioner</h4>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+          <p class="text-gray-700 italic">"The coaching sessions were eye-opening. I now feel in control of my mindset and future."</p>
+          <h4 class="mt-4 font-semibold text-[#004AAB]">– Ko Min, Coaching Client</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="py-16 bg-[#004AAB] text-white text-center">
+    <div class="container mx-auto px-6 max-w-4xl">
+      <h2 class="text-3xl font-bold mb-4">Ready to Transform Your Mind?</h2>
+      <p class="text-lg mb-6">Join MPHA Myanmar’s professional hypnosis training or personalized coaching plan today.</p>
+      <a href="#contact" class="inline-block bg-[#EAAA16] text-white px-8 py-3 rounded-md text-lg font-semibold shadow hover:bg-[#d48f11] transition">
+        Get Started Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Upcoming Events -->
+  <section class="py-16 bg-white" id="events">
+    <div class="container mx-auto px-6 max-w-5xl text-center">
+      <h2 class="text-3xl font-bold mb-10 text-[#004AAB]">Upcoming Workshops</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+        <div class="border border-gray-200 rounded-lg p-6 shadow-md">
+          <h3 class="text-xl font-semibold text-[#004AAB] mb-2">Beginner Hypnosis Training</h3>
+          <p class="text-gray-700 mb-1"><strong>Date:</strong> June 15–17, 2025</p>
+          <p class="text-gray-700 mb-1"><strong>Location:</strong> Yangon HQ</p>
+          <p class="text-gray-600 mt-2">A 3-day hands-on workshop perfect for those new to hypnosis. Includes certification.</p>
+        </div>
+        <div class="border border-gray-200 rounded-lg p-6 shadow-md">
+          <h3 class="text-xl font-semibold text-[#004AAB] mb-2">Advanced Coaching Bootcamp</h3>
+          <p class="text-gray-700 mb-1"><strong>Date:</strong> July 20–21, 2025</p>
+          <p class="text-gray-700 mb-1"><strong>Location:</strong> Mandalay Training Center</p>
+          <p class="text-gray-600 mt-2">Dive deeper into coaching techniques using advanced hypnotic tools and roleplay.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="py-16 bg-[#004AAB] text-white">
+    <div class="container mx-auto px-6 max-w-xl text-center">
+      <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
+      <p class="mb-6 text-lg">Subscribe to our newsletter to receive news, tips, and upcoming training schedules.</p>
+      <form class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <input type="email" placeholder="Enter your email" class="w-full sm:w-auto px-4 py-3 rounded-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-white" required />
+        <button type="submit" class="bg-[#EAAA16] text-white font-semibold px-6 py-3 rounded-md hover:bg-[#d48f11] transition">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </section>
+  <footer class="bg-[#004AAB] text-white py-8">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-start md:items-center space-y-6 md:space-y-0">
+      
+      <!-- Logo and Org Name -->
+      <div>
+        <h2 class="text-2xl font-bold">MPHA Myanmar</h2>
+        <p class="text-sm mt-2">Empowering minds through hypnosis training & coaching.</p>
+      </div>
+  
+      <!-- Quick Links -->
+      <div>
+        <h3 class="font-semibold mb-2">Quick Links</h3>
+        <ul class="space-y-1 text-sm">
+          <li><a href="index.html" class="hover:underline">Home</a></li>
+          <li><a href="about.html" class="hover:underline">About Us</a></li>
+          <li><a href="services.html" class="hover:underline">Services</a></li>
+          <li><a href="training.html" class="hover:underline">Training</a></li>
+          <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+  
+      <!-- Contact Info -->
+      <div>
+        <h3 class="font-semibold mb-2">Contact</h3>
+        <p class="text-sm">Email: info@mpha-myanmar.org</p>
+        <p class="text-sm">Phone: +95 9 123 456 789</p>
+      </div>
+  
+    </div>
+  
+    <!-- Bottom Text -->
+    <div class="text-center text-xs text-gray-200 mt-8">
+      &copy; 2025 MPHA Myanmar. All rights reserved.
+    </div>
+  </footer>
+  
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+  
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  
+</body>
+</html>
